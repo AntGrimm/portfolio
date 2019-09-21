@@ -3,8 +3,9 @@
   "name": "portfolio",
   "scripts": {
     "start": "browser-sync start --server public --files public",
-    "deploy": "echo 'To setup deployment run: yarn setup-deploy'",
-    "setup-deploy": "app-app --deploy && yarn deploy"
+    "deploy": "netlify deploy --prod --dir=public",
+    "setup-deploy": "app-app --deploy && yarn deploy",
+    "postdeploy": "echo 'Your site was deployed to https://portfolio-anthonygrimm.netlify.com'"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
@@ -19,5 +20,6 @@
   },
   "dependencies": {
     "scss": "^0.2.4"
-  }
+  },
+  "homepage": "https://portfolio-anthonygrimm.netlify.com"
 }
