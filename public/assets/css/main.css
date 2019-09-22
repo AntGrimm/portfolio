@@ -72,6 +72,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+.header-contact-section{
+	display: flex;
+	align-items: baseline;
+}
+
+.header-contact-section>li{
+	margin: 0.4rem;
+}
+
 /* Basic */
 
 	@-ms-viewport {
