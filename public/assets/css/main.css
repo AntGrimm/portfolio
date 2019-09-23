@@ -177,7 +177,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -7786,26 +7786,26 @@ input, select, textarea {
 					border-left-width: 0;
 				}
 
-			.items.style1.medium > *:nth-child(-n + 2) {
+			/* .items.style1.medium > *:nth-child(-n + 2) {
 				border-top-width: 1px;
-			}
+			} */
 
-			.items.style1.medium > *:nth-child(2n + 1) {
+			/* .items.style1.medium > *:nth-child(2n + 1) {
 				border-left-width: 1px;
-			}
+			} */
 
 			.items.style1.medium > * {
 				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
+				/* width: 100%; */
 			}
 
 				.items.style1.medium > *:nth-child(-n + 1) {
 					border-top-width: 0;
 				}
 
-				.items.style1.medium > *:nth-child(1n + 1) {
+				/* .items.style1.medium > *:nth-child(1n + 1) {
 					border-left-width: 0;
-				}
+				} */
 
 			.items.style1.small > *:nth-child(-n + 2) {
 				border-top-width: 1px;
@@ -7833,9 +7833,9 @@ input, select, textarea {
 				padding-right: 0;
 			}
 
-			.items.style1.big > :first-child, .items.style1.medium > :first-child, .items.style1.small > :first-child {
+			/* .items.style1.big > :first-child, .items.style1.medium > :first-child, .items.style1.small > :first-child {
 				padding-top: 0;
-			}
+			} */
 
 			.items.style1.big > :last-child, .items.style1.medium > :last-child, .items.style1.small > :last-child {
 				padding-bottom: 0;
@@ -7998,9 +7998,9 @@ input, select, textarea {
 				border-top-width: 1px;
 			}
 
-			.items.style2.big > *:nth-child(2n + 1) {
+			/* .items.style2.big > *:nth-child(2n + 1) {
 				border-left-width: 1px;
-			}
+			} */
 
 			.items.style2.big > * {
 				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
@@ -8032,13 +8032,13 @@ input, select, textarea {
 					border-top-width: 0;
 				}
 
-				.items.style2.medium > *:nth-child(1n + 1) {
+				/* .items.style2.medium > *:nth-child(1n + 1) {
 					border-left-width: 0;
-				}
+				} */
 
-			.items.style2.small > *:nth-child(-n + 2) {
+			/* .items.style2.small > *:nth-child(-n + 2) {
 				border-top-width: 1px;
-			}
+			} */
 
 			.items.style2.small > *:nth-child(2n + 1) {
 				border-left-width: 1px;
