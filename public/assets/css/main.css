@@ -3575,6 +3575,12 @@ input, select, textarea {
 					width: 100%;
 					max-width: 100%;
 				}
+				
+				.header-contact-section{
+					display: flex;
+					align-items: baseline;
+					justify-content: center;
+				}
 
 				.banner.style1 .image {
 					width: 100%;
@@ -4912,7 +4918,7 @@ input, select, textarea {
 				-ms-object-position: center;
 				object-position: center;
 				display: block;
-				position: absolute;
+				/* position: absolute; */
 				top: 0;
 				left: 0;
 				width: 100%;
